@@ -1,0 +1,502 @@
+wandb_version: 1
+
+_fake_gpus:
+  desc: null
+  value: false
+_tf_policy_handles_more_than_one_loss:
+  desc: null
+  value: false
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.20
+    start_time: 1742139741
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 30
+      - 55
+      3:
+      - 13
+      - 14
+      - 16
+      4: 3.8.20
+      5: 0.12.21
+      8:
+      - 6
+      - 9
+action_space:
+  desc: null
+  value: null
+actions_in_input_normalized:
+  desc: null
+  value: false
+adam_epsilon:
+  desc: null
+  value: 1.0e-08
+batch_mode:
+  desc: null
+  value: truncate_episodes
+before_learn_on_batch:
+  desc: null
+  value: null
+buffer_size:
+  desc: null
+  value: 200000
+clip_actions:
+  desc: null
+  value: false
+clip_rewards:
+  desc: null
+  value: null
+collect_metrics_timeout:
+  desc: null
+  value: 180
+compress_observations:
+  desc: null
+  value: false
+create_env_on_driver:
+  desc: null
+  value: false
+custom_eval_function:
+  desc: null
+  value: null
+custom_resources_per_worker:
+  desc: null
+  value: {}
+date:
+  desc: null
+  value: 2025-03-16_16-49-20
+double_q:
+  desc: null
+  value: false
+dueling:
+  desc: null
+  value: false
+eager_tracing:
+  desc: null
+  value: false
+env:
+  desc: null
+  value: intc-basic-v0
+env_config:
+  desc: null
+  value:
+    background_config: intel_basic
+    background_config_extra_kvargs:
+      book_log_depth: 10
+      book_logging: false
+      computation_delay: 0
+      fundamental_file_path: /home/pietro/ucl-thesis-main/ucl-thesis-main/LOB_data_preprocess_merge/Merged_data/INTC_merged_mid_price_train.pkl
+      log_orders: false
+      m_wake_up_freq: 0.5s
+      mm_backstop_quantity: 0
+      mm_cancel_limit_delay: 50
+      mm_level_spacing: 5
+      mm_min_order_size: 3
+      mm_num_ticks: 5
+      mm_pov: 0.025
+      mm_price_skew: 4
+      mm_skew_beta: 0
+      mm_spread_alpha: 0.75
+      mm_wake_up_freq: 0.1s
+      mm_window_size: adaptive
+      num_mm: 2
+      num_momentum_agents: 40
+      num_noise_agents: 5000
+      num_value_agents: 200
+      period_starts:
+      - 20241001 120000
+      - 20241002 120000
+      - 20241003 120000
+      - 20241004 120000
+      - 20241007 120000
+      - 20241008 120000
+      - 20241009 120000
+      - 20241010 120000
+      - 20241011 120000
+      - 20241014 120000
+      - 20241015 120000
+      - 20241016 120000
+      - 20241017 120000
+      - 20241018 120000
+      - 20241021 120000
+      - 20241022 120000
+      - 20241023 120000
+      - 20241024 120000
+      - 20241025 120000
+      - 20241028 120000
+      - 20241029 120000
+      - 20241030 120000
+      - 20241031 120000
+      - 20241101 120000
+      - 20241104 120000
+      - 20241105 120000
+      - 20241106 120000
+      - 20241107 120000
+      - 20241108 120000
+      - 20241111 120000
+      - 20241112 120000
+      - 20241113 120000
+      - 20241114 120000
+      - 20241115 120000
+      - 20241118 120000
+      seed: 1
+      ticker: INTC
+      val_kappa: 1.67e-15
+      val_lambda_a: 7.0e-11
+      val_vol: 1.0e-08
+      val_wake_up_freq: 60s
+    debug_mode: true
+    dirichlet_a_h: 5.0
+    dirichlet_a_l: 1.0
+    dirichlet_k: 5.0e-05
+    dirichlet_steps_ahead: 8
+    first_interval: 00:00:30
+    kappa: 5
+    market_data_buffer_length: 5
+    max_holdings: 10
+    order_fixed_size: 1
+    reduction_factor: 0.99996
+    starting_cash: 2000000
+    state_history_length: 2
+    state_timesteps_back: 0
+    timestep_duration: 0.2s
+    w_direc: 1
+env_task_fn:
+  desc: null
+  value: null
+evaluation_config:
+  desc: null
+  value:
+    explore: false
+evaluation_interval:
+  desc: null
+  value: null
+evaluation_num_episodes:
+  desc: null
+  value: 10
+evaluation_num_workers:
+  desc: null
+  value: 0
+evaluation_parallel_to_training:
+  desc: null
+  value: false
+experiment_id:
+  desc: null
+  value: b50359822f934a21a75115ee284700fd
+exploration_config:
+  desc: null
+  value:
+    epsilon_timesteps: 10000
+    final_epsilon: 0.02
+    initial_epsilon: 1.0
+    type: EpsilonGreedy
+explore:
+  desc: null
+  value: true
+extra_python_environs_for_driver:
+  desc: null
+  value: {}
+extra_python_environs_for_worker:
+  desc: null
+  value: {}
+fake_sampler:
+  desc: null
+  value: false
+final_prioritized_replay_beta:
+  desc: null
+  value: 0.4
+framework:
+  desc: null
+  value: torch
+gamma:
+  desc: null
+  value: 0.99
+grad_clip:
+  desc: null
+  value: 40
+hiddens:
+  desc: null
+  value:
+  - 20
+  - 50
+horizon:
+  desc: null
+  value: null
+hostname:
+  desc: null
+  value: DESKTOP-CF5IBD6
+ignore_worker_failures:
+  desc: null
+  value: false
+in_evaluation:
+  desc: null
+  value: false
+input:
+  desc: null
+  value: sampler
+input_config:
+  desc: null
+  value: {}
+input_evaluation:
+  desc: null
+  value:
+  - is
+  - wis
+learning_starts:
+  desc: null
+  value: 1000
+local_tf_session_args:
+  desc: null
+  value:
+    inter_op_parallelism_threads: 8
+    intra_op_parallelism_threads: 8
+log_level:
+  desc: null
+  value: WARN
+log_sys_usage:
+  desc: null
+  value: true
+logger_config:
+  desc: null
+  value: null
+lr:
+  desc: null
+  value: 5.0e-06
+lr_schedule:
+  desc: null
+  value: null
+metrics_smoothing_episodes:
+  desc: null
+  value: 100
+min_iter_time_s:
+  desc: null
+  value: 1
+model:
+  desc: null
+  value:
+    _no_preprocessing: false
+    _time_major: false
+    _use_default_native_models: false
+    attention_dim: 64
+    attention_head_dim: 32
+    attention_init_gru_gate_bias: 2.0
+    attention_memory_inference: 50
+    attention_memory_training: 50
+    attention_num_heads: 1
+    attention_num_transformer_units: 1
+    attention_position_wise_mlp_dim: 32
+    attention_use_n_prev_actions: 0
+    attention_use_n_prev_rewards: 0
+    conv_activation: relu
+    conv_filters: null
+    custom_action_dist: null
+    custom_model: null
+    custom_model_config: {}
+    custom_preprocessor: null
+    dim: 84
+    fcnet_activation: tanh
+    fcnet_hiddens:
+    - 256
+    - 256
+    framestack: true
+    free_log_std: false
+    grayscale: false
+    lstm_cell_size: 256
+    lstm_use_prev_action: false
+    lstm_use_prev_action_reward: -1
+    lstm_use_prev_reward: false
+    max_seq_len: 20
+    no_final_linear: false
+    post_fcnet_activation: relu
+    post_fcnet_hiddens: []
+    use_attention: false
+    use_lstm: false
+    vf_share_layers: true
+    zero_mean: true
+monitor:
+  desc: null
+  value: -1
+multiagent:
+  desc: null
+  value:
+    count_steps_by: env_steps
+    observation_fn: null
+    policies:
+      default_policy: PolicySpec(policy_class=None, observation_space=None, action_space=None,
+        config={})
+    policies_to_train: null
+    policy_map_cache: null
+    policy_map_capacity: 100
+    policy_mapping_fn: null
+    replay_mode: independent
+n_step:
+  desc: null
+  value: 1
+no_done_at_end:
+  desc: null
+  value: false
+node_ip:
+  desc: null
+  value: 172.22.51.105
+noisy:
+  desc: null
+  value: false
+normalize_actions:
+  desc: null
+  value: true
+num_atoms:
+  desc: null
+  value: 1
+num_cpus_for_driver:
+  desc: null
+  value: 1
+num_cpus_per_worker:
+  desc: null
+  value: 1
+num_envs_per_worker:
+  desc: null
+  value: 1
+num_gpus:
+  desc: null
+  value: 0
+num_gpus_per_worker:
+  desc: null
+  value: 0
+num_workers:
+  desc: null
+  value: 0
+observation_filter:
+  desc: null
+  value: MeanStdFilter
+observation_space:
+  desc: null
+  value: null
+optimizer:
+  desc: null
+  value: {}
+output:
+  desc: null
+  value: null
+output_compress_columns:
+  desc: null
+  value:
+  - obs
+  - new_obs
+output_max_file_size:
+  desc: null
+  value: 67108864
+pid:
+  desc: null
+  value: 15497
+placement_strategy:
+  desc: null
+  value: PACK
+postprocess_inputs:
+  desc: null
+  value: false
+preprocessor_pref:
+  desc: null
+  value: deepmind
+prioritized_replay:
+  desc: null
+  value: false
+prioritized_replay_alpha:
+  desc: null
+  value: 0.6
+prioritized_replay_beta:
+  desc: null
+  value: 0.4
+prioritized_replay_beta_annealing_timesteps:
+  desc: null
+  value: 20000
+prioritized_replay_eps:
+  desc: null
+  value: 1.0e-06
+record_env:
+  desc: null
+  value: false
+remote_env_batch_wait_ms:
+  desc: null
+  value: 0
+remote_worker_envs:
+  desc: null
+  value: false
+render_env:
+  desc: null
+  value: false
+replay_sequence_length:
+  desc: null
+  value: 1
+rollout_fragment_length:
+  desc: null
+  value: 4
+sample_async:
+  desc: null
+  value: false
+sample_collector:
+  desc: null
+  value: <class 'ray.rllib.evaluation.collectors.simple_list_collector.SimpleListCollector'>
+seed:
+  desc: null
+  value: 1
+shuffle_buffer_size:
+  desc: null
+  value: 0
+sigma0:
+  desc: null
+  value: 0.5
+simple_optimizer:
+  desc: null
+  value: false
+soft_horizon:
+  desc: null
+  value: false
+store_buffer_in_checkpoints:
+  desc: null
+  value: false
+synchronize_filters:
+  desc: null
+  value: true
+target_network_update_freq:
+  desc: null
+  value: 5000
+tf_session_args:
+  desc: null
+  value:
+    allow_soft_placement: true
+    device_count:
+      CPU: 1
+    gpu_options:
+      allow_growth: true
+    inter_op_parallelism_threads: 2
+    intra_op_parallelism_threads: 2
+    log_device_placement: false
+timesteps_per_iteration:
+  desc: null
+  value: 1000
+train_batch_size:
+  desc: null
+  value: 32
+training_intensity:
+  desc: null
+  value: null
+trial_id:
+  desc: null
+  value: 3dd6c_00000
+v_max:
+  desc: null
+  value: 10.0
+v_min:
+  desc: null
+  value: -10.0
+worker_side_prioritization:
+  desc: null
+  value: false

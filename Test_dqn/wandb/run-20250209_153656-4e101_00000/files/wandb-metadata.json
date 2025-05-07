@@ -1,0 +1,15 @@
+{
+    "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.38",
+    "python": "3.8.20",
+    "heartbeatAt": "2025-02-09T14:36:58.134238",
+    "startedAt": "2025-02-09T14:36:56.565388",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/pietro/ucl-thesis-main/ucl-thesis-main/abides-gym/scripts/dqn_train.py",
+    "host": "DESKTOP-CF5IBD6",
+    "username": "pietro",
+    "executable": "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/bin/python3"
+}

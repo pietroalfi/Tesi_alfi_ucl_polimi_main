@@ -1,0 +1,4 @@
+  File "/g100/home/userexternal/palfi000/ucl-thesis-main/abides-gym/scripts/dqn_train_intel.py", line 45
+    "max_holdings": 10,
+    ^
+SyntaxError: invalid syntax

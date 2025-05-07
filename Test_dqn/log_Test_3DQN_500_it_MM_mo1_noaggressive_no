@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/abides-gym/scripts/dqn_train.py", line 5, in <module>
+    from abides_gym.envs.markets_fx_environment_basic import SubGymFxEnv_basic
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/abides-gym/abides_gym/__init__.py", line 4, in <module>
+    from .envs import *
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/abides-gym/abides_gym/envs/__init__.py", line 3, in <module>
+    from .markets_fx_environment_basic import SubGymFxEnv_basic
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/abides-gym/abides_gym/envs/markets_fx_environment_basic.py", line 244
+    return[{"type": "CCL_ALL"}]
+    ^
+IndentationError: unexpected indent

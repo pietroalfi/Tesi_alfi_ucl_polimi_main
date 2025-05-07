@@ -1,0 +1,136 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.20
+    start_time: 1739092999
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 30
+      - 55
+      2:
+      - 1
+      - 2
+      - 3
+      - 30
+      - 55
+      3:
+      - 2
+      - 13
+      - 14
+      - 16
+      4: 3.8.20
+      5: 0.12.21
+      8:
+      - 6
+      - 9
+double_q:
+  desc: null
+  value: true
+dueling:
+  desc: null
+  value: true
+env:
+  desc: null
+  value: fx-basic-v0
+env_config:
+  desc: null
+  value:
+    background_config: fx_basic
+    background_config_extra_kvargs:
+      book_log_depth: 10
+      book_logging: false
+      computation_delay: 0
+      exchange_log_orders: false
+      fundamental_file_path: /home/pietro/ucl-thesis-main/ucl-thesis-main/data/EURUSD_2024_01_midpoint_1000.pkl
+      log_orders: false
+      m_wake_up_freq: 0.5s
+      mm_backstop_quantity: 0
+      mm_cancel_limit_delay: 50
+      mm_level_spacing: 5
+      mm_min_order_size: 3
+      mm_num_ticks: 5
+      mm_pov: 0.025
+      mm_price_skew: 4
+      mm_skew_beta: 0
+      mm_spread_alpha: 0.75
+      mm_wake_up_freq: 0.1s
+      mm_window_size: adaptive
+      num_mm: 2
+      num_momentum_agents: 40
+      num_noise_agents: 5000
+      num_value_agents: 200
+      seed: 1
+      starting_cash: 2000000
+      ticker: EURUSD
+      val_kappa: 1.67e-15
+      val_lambda_a: 7.0e-11
+      val_vol: 1.0e-08
+      val_wake_up_freq: 60s
+    debug_mode: true
+    dirichlet_a_h: 5.0
+    dirichlet_a_l: 1.0
+    dirichlet_k: 5.0e-05
+    dirichlet_steps_ahead: 8
+    first_interval: 00:00:30
+    kappa: 5
+    market_data_buffer_length: 5
+    max_holdings: 10
+    order_fixed_size: 1
+    reduction_factor: 0.99996
+    starting_cash: 2000000
+    state_history_length: 2
+    state_timesteps_back: 0
+    timestep_duration: 0.2s
+    w_direc: 1
+framework:
+  desc: null
+  value: torch
+gamma:
+  desc: null
+  value: 0.99
+hiddens:
+  desc: null
+  value:
+  - 32
+  - 64
+lr:
+  desc: null
+  value: 5.0e-06
+min_iter_time_s:
+  desc: null
+  value: 1
+model:
+  desc: null
+  value:
+    fcnet_activation: tanh
+    fcnet_hiddens:
+    - 64
+    - 128
+    - 64
+num_atoms:
+  desc: null
+  value: 51
+observation_filter:
+  desc: null
+  value: MeanStdFilter
+prioritized_replay:
+  desc: null
+  value: false
+seed:
+  desc: null
+  value: 1
+target_network_update_freq:
+  desc: null
+  value: 5000
+timesteps_per_iteration:
+  desc: null
+  value: 1000

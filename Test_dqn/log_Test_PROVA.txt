@@ -1,0 +1,695 @@
+/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/skimage/io/manage_plugins.py:23: UserWarning: Your installed pillow version is < 8.1.2. Several security issues (CVE-2021-27921, CVE-2021-25290, CVE-2021-25291, CVE-2021-25293, and more) have been fixed in pillow 8.1.2 or higher. We recommend to upgrade this library.
+  from .collection import imread_collection_wrapper
+== Status ==
+Memory usage on this node: 4.5/7.7 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 0/2 CPUs, 0/0 GPUs, 0.0/2.24 GiB heap, 0.0/1.12 GiB objects
+Result logdir: /home/pietro/ray_results/dqn_with_wandb_and_callbacks
+Number of trials: 1/1 (1 PENDING)
++-----------------------------+----------+-------+
+| Trial name                  | status   | loc   |
+|-----------------------------+----------+-------|
+| DQN_fx-basic-v0_21928_00000 | PENDING  |       |
++-----------------------------+----------+-------+
+
+
+/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/tune/callback.py:217: FutureWarning: Please update `setup` method in callback `<class 'ray.tune.integration.wandb.WandbLoggerCallback'>` to match the method signature in `ray.tune.callback.Callback`.
+  warnings.warn(
+wandb: Currently logged in as: pietroalfi (pietroalfi-politecnico-di-milano). Use `wandb login --relogin` to force relogin
+wandb: WARNING Tried to auto resume run with id 0aab1_00000 but id 21928_00000 is set.
+wandb: wandb version 0.19.6 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.21
+wandb: Run data is saved locally in /home/pietro/ucl-thesis-main/ucl-thesis-main/Test_dqn/wandb/run-20250212_194948-21928_00000
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run DQN_fx-basic-v0_21928_00000
+wandb: ⭐️ View project at https://wandb.ai/pietroalfi-politecnico-di-milano/my_dqn_project
+wandb: 🚀 View run at https://wandb.ai/pietroalfi-politecnico-di-milano/my_dqn_project/runs/21928_00000
+== Status ==
+Memory usage on this node: 4.8/7.7 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/2 CPUs, 0/0 GPUs, 0.0/2.24 GiB heap, 0.0/1.12 GiB objects
+Result logdir: /home/pietro/ray_results/dqn_with_wandb_and_callbacks
+Number of trials: 1/1 (1 RUNNING)
++-----------------------------+----------+-------+
+| Trial name                  | status   | loc   |
+|-----------------------------+----------+-------|
+| DQN_fx-basic-v0_21928_00000 | RUNNING  |       |
++-----------------------------+----------+-------+
+
+
+[2m[36m(DQN pid=1095798)[0m Period of start: 20240104 090000
+== Status ==
+Memory usage on this node: 5.0/7.7 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/2 CPUs, 0/0 GPUs, 0.0/2.24 GiB heap, 0.0/1.12 GiB objects
+Result logdir: /home/pietro/ray_results/dqn_with_wandb_and_callbacks
+Number of trials: 1/1 (1 RUNNING)
++-----------------------------+----------+-------+
+| Trial name                  | status   | loc   |
+|-----------------------------+----------+-------|
+| DQN_fx-basic-v0_21928_00000 | RUNNING  |       |
++-----------------------------+----------+-------+
+
+
+[2m[36m(DQN pid=1095798)[0m mkt_close:  2024-01-04 10:00:00
+== Status ==
+Memory usage on this node: 5.2/7.7 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/2 CPUs, 0/0 GPUs, 0.0/2.24 GiB heap, 0.0/1.12 GiB objects
+Result logdir: /home/pietro/ray_results/dqn_with_wandb_and_callbacks
+Number of trials: 1/1 (1 RUNNING)
++-----------------------------+----------+-------+
+| Trial name                  | status   | loc   |
+|-----------------------------+----------+-------|
+| DQN_fx-basic-v0_21928_00000 | RUNNING  |       |
++-----------------------------+----------+-------+
+
+
+[2m[36m(DQN pid=1095798)[0m Period of start: 20240104 090000
+== Status ==
+Memory usage on this node: 5.3/7.7 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/2 CPUs, 0/0 GPUs, 0.0/2.24 GiB heap, 0.0/1.12 GiB objects
+Result logdir: /home/pietro/ray_results/dqn_with_wandb_and_callbacks
+Number of trials: 1/1 (1 RUNNING)
++-----------------------------+----------+-------+
+| Trial name                  | status   | loc   |
+|-----------------------------+----------+-------|
+| DQN_fx-basic-v0_21928_00000 | RUNNING  |       |
++-----------------------------+----------+-------+
+
+
+[2m[36m(DQN pid=1095798)[0m mkt_close:  2024-01-04 10:00:00
+== Status ==
+Memory usage on this node: 5.5/7.7 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/2 CPUs, 0/0 GPUs, 0.0/2.24 GiB heap, 0.0/1.12 GiB objects
+Result logdir: /home/pietro/ray_results/dqn_with_wandb_and_callbacks
+Number of trials: 1/1 (1 RUNNING)
++-----------------------------+----------+-------+
+| Trial name                  | status   | loc   |
+|-----------------------------+----------+-------|
+| DQN_fx-basic-v0_21928_00000 | RUNNING  |       |
++-----------------------------+----------+-------+
+
+
+== Status ==
+Memory usage on this node: 5.6/7.7 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 1.0/2 CPUs, 0/0 GPUs, 0.0/2.24 GiB heap, 0.0/1.12 GiB objects
+Result logdir: /home/pietro/ray_results/dqn_with_wandb_and_callbacks
+Number of trials: 1/1 (1 RUNNING)
++-----------------------------+----------+-------+
+| Trial name                  | status   | loc   |
+|-----------------------------+----------+-------|
+| DQN_fx-basic-v0_21928_00000 | RUNNING  |       |
++-----------------------------+----------+-------+
+
+
+[2m[36m(DQN pid=1095798)[0m Inizio dell'episodio: creazione delle metriche iniziali
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.0
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.0
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.0, 'holdings': 0, 'spread': 1, 'Mid Price': 109464, 'action': 0, 'value': 2000000, 'time to end': 3569800000000, 'mid_price': 109464, 'current_time': 1704358830200000000, 'bids': [(109464, 264), (109463, 4), (109462, 345), (109461, 569), (109460, 234), (109459, 3), (109458, 46), (109456, 200), (109455, 46), (109454, 3)], 'asks': [(109465, 203), (109466, 144), (109467, 176), (109469, 625), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.0
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.0
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.0, 'holdings': 0, 'spread': 1, 'Mid Price': 109464, 'action': 3, 'value': 2000000, 'time to end': 3569600000000, 'mid_price': 109464, 'current_time': 1704358830400000000, 'bids': [(109464, 343), (109463, 4), (109462, 246), (109461, 569), (109460, 234), (109459, 3), (109458, 46), (109456, 200), (109455, 46), (109454, 3)], 'asks': [(109465, 3), (109466, 144), (109467, 177), (109469, 625), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.0
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.0
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.0, 'holdings': 0, 'spread': 1, 'Mid Price': 109465, 'action': 8, 'value': 2000000, 'time to end': 3569400000000, 'mid_price': 109465, 'current_time': 1704358830600000000, 'bids': [(109465, 95), (109464, 315), (109463, 4), (109462, 245), (109461, 569), (109460, 237), (109458, 46), (109456, 200), (109455, 49), (109450, 3)], 'asks': [(109466, 147), (109467, 176), (109469, 625), (109470, 85), (109471, 3), (109474, 100), (109476, 3), (109478, 400), (109479, 100), (109481, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 20
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.07014233372250644
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.07013111162245927
+[2m[36m(DQN pid=1095798)[0m Rest: -0.001599904002561603
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.07253382098042077, 'holdings': 1, 'spread': 1, 'Mid Price': 109464, 'action': 2, 'value': 1999999, 'time to end': 3569200000000, 'mid_price': 109464, 'current_time': 1704358830800000000, 'bids': [(109464, 298), (109463, 4), (109462, 245), (109461, 569), (109460, 237), (109458, 46), (109456, 200), (109455, 49), (109450, 3), (109445, 3)], 'asks': [(109465, 9), (109466, 48), (109467, 176), (109469, 625), (109470, 85), (109471, 3), (109474, 100), (109476, 3), (109478, 400), (109479, 100)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 20
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.0
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.0
+[2m[36m(DQN pid=1095798)[0m Rest: 0.00199984000640141
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.003199808005123206, 'holdings': 0, 'spread': 1, 'Mid Price': 109464, 'action': 2, 'value': 2000000, 'time to end': 3569000000000, 'mid_price': 109464, 'current_time': 1704358831000000000, 'bids': [(109464, 174), (109463, 4), (109462, 245), (109461, 569), (109460, 234), (109459, 3), (109458, 46), (109456, 200), (109455, 46), (109454, 3)], 'asks': [(109465, 25), (109466, 25), (109467, 176), (109469, 525), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 20
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.047321849281608874
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.047310493173445094
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.043312705656069025, 'holdings': -1, 'spread': 1, 'Mid Price': 109464, 'action': 2, 'value': 2000000, 'time to end': 3568800000000, 'mid_price': 109464, 'current_time': 1704358831200000000, 'bids': [(109464, 94), (109463, 4), (109462, 245), (109461, 569), (109460, 237), (109458, 46), (109456, 200), (109455, 49), (109450, 3), (109445, 3)], 'asks': [(109465, 133), (109466, 28), (109467, 176), (109469, 425), (109470, 85), (109471, 3), (109474, 100), (109476, 3), (109478, 400), (109479, 100)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.0009328970871026743
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.0009326359072615378
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.0009326732141901055, 'holdings': -1, 'spread': 1, 'Mid Price': 109464, 'action': 0, 'value': 2000000, 'time to end': 3568600000000, 'mid_price': 109464, 'current_time': 1704358831400000000, 'bids': [(109464, 78), (109463, 4), (109462, 245), (109461, 569), (109460, 234), (109459, 4), (109458, 46), (109456, 200), (109455, 46), (109454, 4)], 'asks': [(109465, 36), (109466, 10), (109467, 176), (109469, 225), (109470, 89), (109474, 100), (109475, 4), (109478, 400), (109479, 100), (109480, 4)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.006654905015578388
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.006652775744089297
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.006653041865763927, 'holdings': -1, 'spread': 1, 'Mid Price': 109464, 'action': 0, 'value': 2000000, 'time to end': 3568400000000, 'mid_price': 109464, 'current_time': 1704358831600000000, 'bids': [(109464, 174), (109463, 4), (109462, 245), (109461, 569), (109460, 234), (109459, 3), (109458, 46), (109456, 200), (109455, 46), (109454, 3)], 'asks': [(109465, 51), (109466, 10), (109467, 176), (109469, 225), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.04943360743827879
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.049415814186711045
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.04941779089834698, 'holdings': -1, 'spread': 1, 'Mid Price': 109464, 'action': 7, 'value': 2000000, 'time to end': 3568200000000, 'mid_price': 109464, 'current_time': 1704358831800000000, 'bids': [(109464, 181), (109463, 4), (109462, 201), (109461, 569), (109460, 234), (109459, 3), (109458, 46), (109456, 100), (109455, 46), (109454, 3)], 'asks': [(109465, 452), (109466, 10), (109467, 176), (109469, 225), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.24466953047233708
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.24457168027447534
+[2m[36m(DQN pid=1095798)[0m Rest: -0.003999280076797396
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.24458146353301666, 'holdings': -2, 'spread': 1, 'Mid Price': 109464, 'action': 6, 'value': 1999999, 'time to end': 3568000000000, 'mid_price': 109464, 'current_time': 1704358832000000000, 'bids': [(109464, 123), (109463, 1), (109462, 200), (109461, 569), (109460, 234), (109459, 3), (109456, 100), (109455, 46), (109454, 3), (109449, 3)], 'asks': [(109465, 456), (109466, 10), (109467, 176), (109469, 225), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.1692730412625617
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.16919857601864638
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.16920534423241568, 'holdings': -2, 'spread': 1, 'Mid Price': 109464, 'action': 8, 'value': 1999999, 'time to end': 3567800000000, 'mid_price': 109464, 'current_time': 1704358832200000000, 'bids': [(109464, 92), (109463, 101), (109462, 200), (109461, 569), (109460, 234), (109457, 3), (109456, 100), (109455, 46), (109451, 3), (109445, 3)], 'asks': [(109465, 353), (109466, 10), (109467, 176), (109469, 225), (109470, 88), (109474, 100), (109476, 3), (109478, 400), (109479, 100), (109482, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.466513775301804
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.4662898979469457
+[2m[36m(DQN pid=1095798)[0m Rest: -0.004798944140791406
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.4663085502889573, 'holdings': -3, 'spread': 1, 'Mid Price': 109464, 'action': 6, 'value': 1999998, 'time to end': 3567600000000, 'mid_price': 109464, 'current_time': 1704358832400000000, 'bids': [(109464, 255), (109463, 99), (109462, 200), (109461, 569), (109460, 234), (109459, 3), (109456, 100), (109455, 46), (109454, 3), (109449, 3)], 'asks': [(109465, 334), (109466, 10), (109467, 176), (109469, 225), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.4375174579758858
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.4372900034919094
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.4373074957917411, 'holdings': -3, 'spread': 1, 'Mid Price': 109464, 'action': 5, 'value': 1999998, 'time to end': 3567400000000, 'mid_price': 109464, 'current_time': 1704358832600000000, 'bids': [(109464, 131), (109463, 98), (109462, 200), (109461, 569), (109460, 234), (109459, 8), (109456, 100), (109455, 46), (109454, 8), (109449, 8)], 'asks': [(109465, 13), (109466, 10), (109467, 177), (109469, 225), (109470, 93), (109474, 100), (109475, 8), (109478, 400), (109479, 100), (109480, 8)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 20
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.3017473291308724
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.3015783945539413
+[2m[36m(DQN pid=1095798)[0m Rest: 0.01679563269881945
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.29119295380621507, 'holdings': -4, 'spread': 1, 'Mid Price': 109463, 'action': 6, 'value': 2000001, 'time to end': 3567200000000, 'mid_price': 109463, 'current_time': 1704358832800000000, 'bids': [(109463, 97), (109462, 200), (109461, 569), (109460, 234), (109459, 3), (109456, 100), (109455, 46), (109454, 3), (109449, 3), (109444, 3)], 'asks': [(109464, 41), (109465, 7), (109466, 10), (109467, 176), (109469, 225), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.06937788031283332
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.06933626523810943
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.06933903879966141, 'holdings': -4, 'spread': 1, 'Mid Price': 109463, 'action': 5, 'value': 2000001, 'time to end': 3567000000000, 'mid_price': 109463, 'current_time': 1704358833000000000, 'bids': [(109463, 65), (109462, 200), (109461, 569), (109460, 234), (109459, 3), (109456, 100), (109455, 46), (109454, 3), (109449, 3), (109444, 3)], 'asks': [(109464, 41), (109465, 7), (109466, 11), (109467, 176), (109469, 225), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.11195132427197954
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.11187969691508785
+[2m[36m(DQN pid=1095798)[0m Rest: -0.03199040179179824
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.11188417228197914, 'holdings': -5, 'spread': 1, 'Mid Price': 109464, 'action': 1, 'value': 1999996, 'time to end': 3566800000000, 'mid_price': 109464, 'current_time': 1704358833200000000, 'bids': [(109464, 169), (109463, 63), (109462, 200), (109461, 569), (109460, 234), (109459, 3), (109456, 100), (109455, 46), (109454, 3), (109449, 3)], 'asks': [(109465, 7), (109466, 10), (109467, 176), (109469, 225), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.02035128995401647
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.020337455504402857
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.020338269035164263, 'holdings': -5, 'spread': 1, 'Mid Price': 109464, 'action': 3, 'value': 1999996, 'time to end': 3566600000000, 'mid_price': 109464, 'current_time': 1704358833400000000, 'bids': [(109464, 260), (109463, 63), (109462, 201), (109461, 569), (109460, 237), (109455, 49), (109450, 3), (109445, 3), (109420, 100), (109414, 100)], 'asks': [(109465, 409), (109466, 13), (109467, 177), (109469, 225), (109470, 85), (109471, 3), (109474, 100), (109476, 3), (109478, 400), (109479, 100)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.2316999107426598
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.23153314351496462
+[2m[36m(DQN pid=1095798)[0m Rest: 0.007197552522167916
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.23154240521117306, 'holdings': -4, 'spread': 1, 'Mid Price': 109464, 'action': 0, 'value': 1999997, 'time to end': 3566400000000, 'mid_price': 109464, 'current_time': 1704358833600000000, 'bids': [(109464, 192), (109463, 63), (109462, 200), (109461, 569), (109460, 234), (109459, 3), (109455, 46), (109454, 3), (109449, 3), (109444, 3)], 'asks': [(109465, 411), (109466, 10), (109467, 176), (109469, 125), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.026365879103497247
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.02634584824744825
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.026346902123533193, 'holdings': -4, 'spread': 1, 'Mid Price': 109464, 'action': 0, 'value': 1999997, 'time to end': 3566200000000, 'mid_price': 109464, 'current_time': 1704358833800000000, 'bids': [(109464, 118), (109463, 63), (109462, 200), (109461, 569), (109460, 234), (109459, 3), (109455, 46), (109454, 3), (109449, 3), (109444, 3)], 'asks': [(109465, 408), (109466, 10), (109467, 176), (109469, 125), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.23165696089192647
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.23147170573003006
+[2m[36m(DQN pid=1095798)[0m Rest: 0.031987842917931
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.23148096496862883, 'holdings': -4, 'spread': 1, 'Mid Price': 109463, 'action': 1, 'value': 2000001, 'time to end': 3566000000000, 'mid_price': 109463, 'current_time': 1704358834000000000, 'bids': [(109463, 151), (109462, 200), (109461, 569), (109460, 134), (109458, 3), (109455, 46), (109453, 3), (109448, 3), (109443, 3), (109420, 100)], 'asks': [(109464, 342), (109465, 506), (109466, 10), (109467, 176), (109469, 128), (109470, 85), (109474, 103), (109478, 400), (109479, 103), (109484, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.0997236842501158
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.09963994985401659
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.09964393561144104, 'holdings': -4, 'spread': 1, 'Mid Price': 109463, 'action': 3, 'value': 2000001, 'time to end': 3565800000000, 'mid_price': 109463, 'current_time': 1704358834200000000, 'bids': [(109463, 115), (109462, 200), (109461, 570), (109460, 134), (109458, 3), (109455, 46), (109453, 3), (109448, 3), (109443, 3), (109420, 100)], 'asks': [(109464, 342), (109465, 505), (109466, 11), (109467, 176), (109469, 128), (109470, 85), (109474, 103), (109478, 400), (109479, 103), (109484, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.18587557966882973
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.18571207784001886
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.18571950662028366, 'holdings': -4, 'spread': 1, 'Mid Price': 109463, 'action': 2, 'value': 2000001, 'time to end': 3565600000000, 'mid_price': 109463, 'current_time': 1704358834400000000, 'bids': [(109463, 106), (109462, 200), (109461, 569), (109460, 134), (109458, 3), (109455, 46), (109453, 3), (109448, 3), (109443, 3), (109420, 100)], 'asks': [(109464, 243), (109465, 505), (109466, 10), (109467, 176), (109469, 128), (109470, 85), (109474, 103), (109478, 400), (109479, 103), (109484, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.1229574917012535
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.12284442056814719
+[2m[36m(DQN pid=1095798)[0m Rest: -0.009195953133220858
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.12284933454152885, 'holdings': -5, 'spread': 1, 'Mid Price': 109463, 'action': 6, 'value': 2000000, 'time to end': 3565400000000, 'mid_price': 109463, 'current_time': 1704358834600000000, 'bids': [(109463, 162), (109462, 201), (109461, 569), (109460, 134), (109458, 3), (109455, 46), (109453, 3), (109448, 3), (109443, 3), (109420, 100)], 'asks': [(109464, 241), (109465, 505), (109466, 10), (109467, 176), (109469, 128), (109470, 85), (109474, 103), (109478, 400), (109479, 103), (109484, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.7017446393791029
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.7010712743248491
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.701099318297581, 'holdings': -5, 'spread': 1, 'Mid Price': 109463, 'action': 2, 'value': 2000000, 'time to end': 3565200000000, 'mid_price': 109463, 'current_time': 1704358834800000000, 'bids': [(109463, 236), (109462, 200), (109461, 569), (109460, 134), (109458, 3), (109455, 46), (109453, 3), (109448, 3), (109443, 3), (109420, 100)], 'asks': [(109464, 140), (109465, 505), (109466, 10), (109467, 176), (109469, 128), (109470, 85), (109474, 103), (109478, 400), (109479, 103), (109484, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.028925118307567138
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.028896207069059494
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.02889736296357804, 'holdings': -5, 'spread': 1, 'Mid Price': 109463, 'action': 5, 'value': 2000000, 'time to end': 3565000000000, 'mid_price': 109463, 'current_time': 1704358835000000000, 'bids': [(109463, 304), (109462, 200), (109461, 569), (109460, 134), (109458, 3), (109455, 46), (109453, 3), (109448, 3), (109443, 3), (109420, 100)], 'asks': [(109464, 30), (109465, 505), (109466, 11), (109467, 176), (109469, 128), (109470, 85), (109474, 103), (109478, 400), (109479, 103), (109484, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.6446180244008946
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.64394795674965
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.643973715698278, 'holdings': -5, 'spread': 1, 'Mid Price': 109463, 'action': 3, 'value': 2000000, 'time to end': 3564800000000, 'mid_price': 109463, 'current_time': 1704358835200000000, 'bids': [(109463, 262), (109462, 200), (109461, 570), (109460, 134), (109458, 3), (109455, 46), (109453, 3), (109448, 3), (109443, 3), (109420, 100)], 'asks': [(109464, 20), (109465, 505), (109466, 11), (109467, 176), (109469, 128), (109470, 85), (109474, 103), (109478, 400), (109479, 103), (109484, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 20
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 4.146621204657174
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 4.142145181722548
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 4.163100477484766, 'holdings': -6, 'spread': 1, 'Mid Price': 109463, 'action': 2, 'value': 2000000, 'time to end': 3564600000000, 'mid_price': 109463, 'current_time': 1704358835400000000, 'bids': [(109463, 343), (109462, 200), (109461, 569), (109460, 134), (109458, 3), (109455, 46), (109453, 3), (109448, 3), (109443, 3), (109420, 100)], 'asks': [(109464, 7), (109465, 502), (109466, 10), (109467, 176), (109469, 128), (109470, 85), (109474, 103), (109478, 400), (109479, 103), (109484, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 4.34647910910677
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 4.34161368034406
+[2m[36m(DQN pid=1095798)[0m Rest: -0.06716372457674868
+[2m[36m(DQN pid=1095798)[0m {'reward': 4.341787351838133, 'holdings': -6, 'spread': 1, 'Mid Price': 109464, 'action': 0, 'value': 1999994, 'time to end': 3564400000000, 'mid_price': 109464, 'current_time': 1704358835600000000, 'bids': [(109464, 97), (109463, 330), (109462, 200), (109461, 569), (109460, 134), (109458, 3), (109455, 46), (109453, 3), (109448, 3), (109443, 3)], 'asks': [(109465, 502), (109466, 10), (109467, 176), (109469, 128), (109470, 85), (109474, 103), (109478, 400), (109479, 103), (109484, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 3.9665590296666817
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 3.961960396941648
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 3.9621188816969157, 'holdings': -6, 'spread': 1, 'Mid Price': 109464, 'action': 3, 'value': 1999994, 'time to end': 3564200000000, 'mid_price': 109464, 'current_time': 1704358835800000000, 'bids': [(109464, 278), (109463, 326), (109462, 201), (109461, 569), (109460, 134), (109459, 5), (109455, 46), (109454, 5), (109449, 5), (109444, 5)], 'asks': [(109465, 302), (109466, 10), (109467, 177), (109469, 125), (109470, 90), (109474, 100), (109475, 5), (109478, 400), (109479, 100), (109480, 5)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 20
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 2.725531933591159
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 2.722263191533062
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 2.7455590990924414, 'holdings': -5, 'spread': 1, 'Mid Price': 109464, 'action': 4, 'value': 1999994, 'time to end': 3564000000000, 'mid_price': 109464, 'current_time': 1704358836000000000, 'bids': [(109464, 253), (109463, 326), (109462, 200), (109461, 569), (109460, 134), (109459, 3), (109455, 46), (109454, 3), (109449, 3), (109444, 3)], 'asks': [(109465, 287), (109466, 11), (109467, 176), (109469, 125), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 1.257894488908005
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 1.2563356352534878
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 1.2563858906891154, 'holdings': -5, 'spread': 1, 'Mid Price': 109464, 'action': 1, 'value': 1999994, 'time to end': 3563800000000, 'mid_price': 109464, 'current_time': 1704358836200000000, 'bids': [(109464, 182), (109463, 326), (109462, 200), (109461, 569), (109460, 134), (109459, 3), (109455, 46), (109454, 3), (109449, 3), (109414, 100)], 'asks': [(109465, 180), (109466, 10), (109467, 176), (109469, 125), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 1.9332075169798308
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 1.9307345449380806
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 1.930811777409177, 'holdings': -5, 'spread': 1, 'Mid Price': 109464, 'action': 1, 'value': 1999994, 'time to end': 3563600000000, 'mid_price': 109464, 'current_time': 1704358836400000000, 'bids': [(109464, 265), (109463, 326), (109462, 200), (109461, 569), (109460, 134), (109459, 3), (109455, 46), (109454, 3), (109449, 3), (109444, 3)], 'asks': [(109465, 166), (109466, 10), (109467, 176), (109469, 125), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 10
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 3.3409936134138656
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 3.3365863231492887
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 3.3495118591144566, 'holdings': -6, 'spread': 1, 'Mid Price': 109464, 'action': 1, 'value': 1999994, 'time to end': 3563400000000, 'mid_price': 109464, 'current_time': 1704358836600000000, 'bids': [(109464, 253), (109463, 326), (109462, 200), (109461, 569), (109460, 134), (109459, 3), (109455, 46), (109454, 3), (109449, 3), (109444, 3)], 'asks': [(109465, 57), (109466, 10), (109467, 176), (109469, 125), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100), (109480, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: -20
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 5.504947711973473
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 5.497465922218639
+[2m[36m(DQN pid=1095798)[0m Rest: -0.1902743896001824
+[2m[36m(DQN pid=1095798)[0m {'reward': 5.471302718670219, 'holdings': -7, 'spread': 2, 'Mid Price': 109466, 'action': 7, 'value': 1999980, 'time to end': 3563200000000, 'mid_price': 109466, 'current_time': 1704358836800000000, 'bids': [(109465, 34), (109464, 131), (109463, 326), (109462, 201), (109461, 569), (109460, 134), (109457, 3), (109455, 46), (109448, 3), (109439, 3)], 'asks': [(109467, 279), (109468, 111), (109469, 125), (109470, 85), (109474, 100), (109476, 3), (109478, 400), (109479, 100), (109485, 3), (109494, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 5.777554276307862
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 5.769471198133368
+[2m[36m(DQN pid=1095798)[0m Rest: -0.013990484187471619
+[2m[36m(DQN pid=1095798)[0m {'reward': 5.769701986212817, 'holdings': -8, 'spread': 2, 'Mid Price': 109466, 'action': 6, 'value': 1999979, 'time to end': 3563000000000, 'mid_price': 109466, 'current_time': 1704358837000000000, 'bids': [(109465, 43), (109464, 234), (109463, 326), (109462, 200), (109461, 569), (109460, 134), (109456, 3), (109455, 46), (109446, 3), (109436, 3)], 'asks': [(109467, 376), (109468, 111), (109469, 125), (109470, 85), (109474, 100), (109477, 3), (109478, 400), (109479, 100), (109487, 3), (109497, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 2.175346392793456
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 2.1722160857432766
+[2m[36m(DQN pid=1095798)[0m Rest: 0.11511939654483605
+[2m[36m(DQN pid=1095798)[0m {'reward': 2.1723029778623912, 'holdings': -8, 'spread': 1, 'Mid Price': 109465, 'action': 7, 'value': 1999987, 'time to end': 3562800000000, 'mid_price': 109465, 'current_time': 1704358837200000000, 'bids': [(109465, 29), (109464, 233), (109463, 327), (109462, 200), (109461, 569), (109460, 134), (109456, 3), (109455, 46), (109446, 3), (109436, 3)], 'asks': [(109466, 3), (109467, 363), (109468, 211), (109469, 125), (109470, 85), (109474, 100), (109477, 3), (109478, 400), (109479, 100), (109487, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 1.3065151456497364
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 1.3045828948072293
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 1.3046350802104378, 'holdings': -8, 'spread': 1, 'Mid Price': 109465, 'action': 2, 'value': 1999987, 'time to end': 3562600000000, 'mid_price': 109465, 'current_time': 1704358837400000000, 'bids': [(109465, 15), (109464, 233), (109463, 326), (109462, 200), (109461, 569), (109460, 134), (109456, 3), (109455, 46), (109446, 3), (109436, 3)], 'asks': [(109466, 120), (109467, 359), (109468, 211), (109469, 125), (109470, 85), (109474, 100), (109477, 3), (109478, 400), (109479, 100), (109487, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 1.9949874523366582
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 1.9919573142942653
+[2m[36m(DQN pid=1095798)[0m Rest: 0.12151005917731439
+[2m[36m(DQN pid=1095798)[0m {'reward': 1.9920369957740964, 'holdings': -8, 'spread': 1, 'Mid Price': 109464, 'action': 8, 'value': 1999995, 'time to end': 3562400000000, 'mid_price': 109464, 'current_time': 1704358837600000000, 'bids': [(109464, 204), (109463, 326), (109462, 200), (109461, 569), (109460, 134), (109459, 3), (109455, 46), (109453, 3), (109447, 3), (109441, 3)], 'asks': [(109465, 386), (109466, 108), (109467, 356), (109468, 211), (109469, 125), (109470, 85), (109472, 3), (109474, 100), (109478, 403), (109479, 100)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.7953278668507111
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.7940880978541252
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.7941198626486311, 'holdings': -8, 'spread': 1, 'Mid Price': 109464, 'action': 1, 'value': 1999995, 'time to end': 3562200000000, 'mid_price': 109464, 'current_time': 1704358837800000000, 'bids': [(109464, 250), (109463, 326), (109462, 200), (109461, 569), (109460, 134), (109459, 3), (109455, 46), (109454, 3), (109449, 3), (109444, 3)], 'asks': [(109465, 271), (109466, 105), (109467, 356), (109468, 211), (109469, 125), (109470, 88), (109474, 100), (109475, 3), (109478, 400), (109479, 100)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.6678139814557026
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.6667463120951054
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.666772983014426, 'holdings': -8, 'spread': 1, 'Mid Price': 109464, 'action': 7, 'value': 1999995, 'time to end': 3562000000000, 'mid_price': 109464, 'current_time': 1704358838000000000, 'bids': [(109464, 267), (109463, 326), (109462, 201), (109461, 569), (109460, 134), (109459, 5), (109455, 46), (109454, 5), (109449, 5), (109444, 5)], 'asks': [(109465, 67), (109466, 105), (109467, 356), (109468, 211), (109469, 125), (109470, 90), (109474, 100), (109475, 5), (109478, 400), (109479, 100)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.15669356869392226
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.15643679671636412
+[2m[36m(DQN pid=1095798)[0m Rest: -0.13109509455857982
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.15644305443854167, 'holdings': -8, 'spread': 1, 'Mid Price': 109465, 'action': 0, 'value': 1999987, 'time to end': 3561800000000, 'mid_price': 109465, 'current_time': 1704358838200000000, 'bids': [(109465, 44), (109464, 270), (109463, 326), (109462, 200), (109461, 569), (109460, 137), (109455, 49), (109450, 3), (109445, 3), (109414, 100)], 'asks': [(109466, 98), (109467, 356), (109468, 211), (109469, 125), (109470, 85), (109471, 3), (109474, 100), (109476, 3), (109478, 400), (109479, 100)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.5752959156894285
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.5743302106562063
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.5743531847835976, 'holdings': -8, 'spread': 1, 'Mid Price': 109465, 'action': 5, 'value': 1999987, 'time to end': 3561600000000, 'mid_price': 109465, 'current_time': 1704358838400000000, 'bids': [(109465, 134), (109464, 269), (109463, 326), (109462, 200), (109461, 569), (109460, 132), (109455, 49), (109450, 3), (109445, 3), (109414, 100)], 'asks': [(109466, 31), (109467, 356), (109468, 212), (109469, 125), (109470, 85), (109471, 3), (109474, 100), (109476, 3), (109478, 400), (109479, 100)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.8204037264038708
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.8189938166660434
+[2m[36m(DQN pid=1095798)[0m Rest: -0.15467003905586862
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.8190265777291525, 'holdings': -9, 'spread': 1, 'Mid Price': 109466, 'action': 7, 'value': 1999978, 'time to end': 3561400000000, 'mid_price': 109466, 'current_time': 1704358838600000000, 'bids': [(109466, 90), (109465, 99), (109464, 269), (109463, 327), (109462, 200), (109461, 572), (109460, 129), (109456, 3), (109455, 46), (109451, 3)], 'asks': [(109467, 449), (109468, 211), (109469, 100), (109470, 85), (109472, 3), (109474, 100), (109477, 3), (109478, 400), (109479, 100), (109482, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 1.2338038611467697
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 1.2316342327913103
+[2m[36m(DQN pid=1095798)[0m Rest: 0.15826385225431117
+[2m[36m(DQN pid=1095798)[0m {'reward': 1.2316835001313158, 'holdings': -9, 'spread': 1, 'Mid Price': 109465, 'action': 3, 'value': 1999987, 'time to end': 3561200000000, 'mid_price': 109465, 'current_time': 1704358838800000000, 'bids': [(109465, 99), (109464, 270), (109463, 326), (109462, 200), (109461, 572), (109460, 129), (109456, 3), (109455, 46), (109451, 3), (109446, 3)], 'asks': [(109466, 16), (109467, 444), (109468, 211), (109469, 101), (109470, 85), (109472, 3), (109474, 100), (109477, 3), (109478, 400), (109479, 100)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.10372506904090556
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.10353852812298173
+[2m[36m(DQN pid=1095798)[0m Rest: -0.17984169077802648
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.10354266982977492, 'holdings': -10, 'spread': 1, 'Mid Price': 109466, 'action': 2, 'value': 1999977, 'time to end': 3561000000000, 'mid_price': 109466, 'current_time': 1704358839000000000, 'bids': [(109466, 102), (109465, 240), (109464, 261), (109463, 326), (109462, 200), (109461, 572), (109460, 129), (109456, 3), (109455, 46), (109451, 3)], 'asks': [(109467, 425), (109468, 211), (109469, 100), (109470, 85), (109472, 3), (109474, 100), (109477, 3), (109478, 400), (109479, 100), (109482, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.6154075785955831
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.6142762471682927
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': 0.6143008192010607, 'holdings': -10, 'spread': 1, 'Mid Price': 109466, 'action': 8, 'value': 1999977, 'time to end': 3560800000000, 'mid_price': 109466, 'current_time': 1704358839200000000, 'bids': [(109466, 200), (109465, 239), (109464, 261), (109463, 326), (109462, 200), (109461, 572), (109460, 129), (109456, 3), (109455, 46), (109451, 3)], 'asks': [(109467, 393), (109468, 211), (109469, 100), (109470, 85), (109472, 3), (109474, 100), (109477, 3), (109478, 400), (109479, 100), (109482, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 1.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.2651857657837698
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.26567416655180254
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.26517515835313843
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -19.73481423421623, 'holdings': -10, 'spread': 1, 'Mid Price': 109466, 'action': 5, 'value': 1999977, 'time to end': 3560600000000, 'mid_price': 109466, 'current_time': 1704358839400000000, 'bids': [(109466, 199), (109465, 239), (109464, 261), (109463, 326), (109462, 200), (109461, 574), (109460, 129), (109456, 5), (109455, 46), (109451, 5)], 'asks': [(109467, 269), (109468, 211), (109469, 100), (109470, 85), (109472, 5), (109474, 100), (109477, 5), (109478, 400), (109479, 100), (109482, 5)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 1.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -1.549601882306595
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -1.5525179323949165
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -1.5495398982313027
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(pid=1095798)[0m /home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/skimage/io/manage_plugins.py:23: UserWarning: Your installed pillow version is < 8.1.2. Several security issues (CVE-2021-27921, CVE-2021-25290, CVE-2021-25291, CVE-2021-25293, and more) have been fixed in pillow 8.1.2 or higher. We recommend to upgrade this library.
+[2m[36m(pid=1095798)[0m   from .collection import imread_collection_wrapper
+[2m[36m(pid=1095798)[0m 2025-02-12 19:49:56,247	INFO dqn.py:141 -- In multi-agent mode, policies will be optimized sequentially by the multi-GPU optimizer. Consider setting simple_optimizer=True if this doesn't work for you.
+[2m[36m(pid=1095798)[0m 2025-02-12 19:49:56,247	INFO trainer.py:758 -- Current log_level is WARN. For more information, set 'log_level': 'INFO' / 'DEBUG' or use the -v and -vv flags.
+[2m[36m(pid=1095798)[0m /home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/agents/dqn/dqn_torch_model.py:151: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+[2m[36m(pid=1095798)[0m   z = torch.range(
+[2m[36m(pid=1095798)[0m /home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/agents/dqn/dqn_torch_policy.py:50: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+[2m[36m(pid=1095798)[0m   z = torch.range(
+[2m[36m(pid=1095798)[0m 2025-02-12 19:50:06,592	WARNING deprecation.py:38 -- DeprecationWarning: `ReplayBuffer(size)` has been deprecated. Use `ReplayBuffer(capacity)` instead. This will raise an error in the future!
+[2m[36m(pid=1095798)[0m 2025-02-12 19:50:06,593	INFO trainable.py:109 -- Trainable.setup took 10.353 seconds. If your trainable is slow to initialize, consider setting reuse_actors=True to reduce actor creation overheads.
+[2m[36m(pid=1095798)[0m 2025-02-12 19:50:06,593	WARNING util.py:57 -- Install gputil for GPU system monitoring.
+[2m[36m(pid=1095798)[0m /home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/agents/dqn/dqn_torch_model.py:151: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+[2m[36m(pid=1095798)[0m   z = torch.range(
+2025-02-12 19:50:22,046	ERROR trial_runner.py:846 -- Trial DQN_fx-basic-v0_21928_00000: Error processing event.
+Traceback (most recent call last):
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/tune/trial_runner.py", line 812, in _process_trial
+    results = self.trial_executor.fetch_result(trial)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/tune/ray_trial_executor.py", line 767, in fetch_result
+    result = ray.get(trial_future[0], timeout=DEFAULT_GET_TIMEOUT)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/worker.py", line 1621, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(TypeError): [36mray::DQN.train()[39m (pid=1095798, ip=172.22.51.105, repr=DQN)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/agents/trainer.py", line 670, in train
+    raise e
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/agents/trainer.py", line 656, in train
+    result = Trainable.train(self)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/tune/trainable.py", line 248, in train
+    result = self.step()
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/agents/trainer_template.py", line 206, in step
+    step_results = next(self.train_exec_impl)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/util/iter.py", line 756, in __next__
+    return next(self.built_iterator)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/util/iter.py", line 843, in apply_filter
+    for item in it:
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/util/iter.py", line 843, in apply_filter
+    for item in it:
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/util/iter.py", line 843, in apply_filter
+    for item in it:
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/util/iter.py", line 1075, in build_union
+    item = next(it)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/util/iter.py", line 756, in __next__
+    return next(self.built_iterator)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/util/iter.py", line 783, in apply_foreach
+    for item in it:
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/execution/rollout_ops.py", line 75, in sampler
+    yield workers.local_worker().sample()
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/evaluation/rollout_worker.py", line 752, in sample
+    batches = [self.input_reader.next()]
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/evaluation/sampler.py", line 103, in next
+    batches = [self.get_data()]
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/evaluation/sampler.py", line 233, in get_data
+    item = next(self._env_runner)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/evaluation/sampler.py", line 648, in _env_runner
+    base_env.send_actions(actions_to_send)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/env/base_env.py", line 365, in send_actions
+    self.vector_env.vector_step(action_vector)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/rllib/env/vector_env.py", line 173, in vector_step
+    obs, r, done, info = self.envs[i].step(actions[i])
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/abides-gym/abides_gym/envs/core_environment.py", line 205, in step
+    raw_state = self.kernel.runner((self.gym_agent, abides_action))
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/abides-core/abides_core/kernel.py", line 295, in runner
+    exp_agent.apply_actions(action_list)
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/abides-markets/abides_markets/agents/background_v2/core_background_agent.py", line 180, in apply_actions
+    if action["type"] == "MKT":
+TypeError: 'set' object is not subscriptable
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.006 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 0.006 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 0.006 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.006 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.006 MB uploaded (0.000 MB deduped)wandb: / 0.006 MB of 0.006 MB uploaded (0.000 MB deduped)wandb: - 0.006 MB of 0.006 MB uploaded (0.000 MB deduped)wandb: \ 0.006 MB of 0.006 MB uploaded (0.000 MB deduped)wandb: | 0.006 MB of 0.006 MB uploaded (0.000 MB deduped)wandb: / 0.006 MB of 0.006 MB uploaded (0.000 MB deduped)wandb: - 0.006 MB of 0.006 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: Synced DQN_fx-basic-v0_21928_00000: https://wandb.ai/pietroalfi-politecnico-di-milano/my_dqn_project/runs/21928_00000
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20250212_194948-21928_00000/logs
+[2m[36m(pid=1095798)[0m [2025-02-12 19:50:28,547 E 1095798 1095859] raylet_client.cc:159: IOError: Broken pipe [RayletClient] Failed to disconnect from raylet.
+[2m[36m(DQN pid=1095798)[0m {'reward': -21.549601882306597, 'holdings': -10, 'spread': 1, 'Mid Price': 109466, 'action': 5, 'value': 1999977, 'time to end': 3560400000000, 'mid_price': 109466, 'current_time': 1704358839600000000, 'bids': [(109466, 203), (109465, 239), (109464, 261), (109463, 326), (109462, 200), (109461, 575), (109460, 129), (109456, 6), (109455, 46), (109451, 6)], 'asks': [(109467, 132), (109468, 211), (109469, 100), (109470, 85), (109472, 6), (109474, 100), (109477, 6), (109478, 400), (109479, 100), (109482, 6)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -0.30740805433828744
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -0.3068061126084697
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -0.30681838534388345, 'holdings': -10, 'spread': 1, 'Mid Price': 109466, 'action': 8, 'value': 1999977, 'time to end': 3560200000000, 'mid_price': 109466, 'current_time': 1704358839800000000, 'bids': [(109466, 148), (109465, 239), (109464, 261), (109463, 326), (109462, 200), (109461, 572), (109460, 129), (109456, 3), (109455, 46), (109451, 3)], 'asks': [(109467, 91), (109468, 211), (109469, 100), (109470, 85), (109472, 3), (109474, 100), (109477, 3), (109478, 400), (109479, 100), (109482, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 1.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.268496154457163
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: 0.2690229335304001
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: 0.2684854146109847
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -19.731503845542836, 'holdings': -10, 'spread': 1, 'Mid Price': 109466, 'action': 7, 'value': 1999977, 'time to end': 3560000000000, 'mid_price': 109466, 'current_time': 1704358840000000000, 'bids': [(109466, 137), (109465, 239), (109464, 261), (109463, 326), (109462, 200), (109461, 572), (109460, 129), (109456, 3), (109455, 46), (109451, 3)], 'asks': [(109467, 82), (109468, 211), (109469, 100), (109470, 85), (109472, 3), (109474, 100), (109477, 3), (109478, 400), (109479, 100), (109482, 3)]}
+[2m[36m(DQN pid=1095798)[0m Eps: 0.0
+[2m[36m(DQN pid=1095798)[0m Mask part: -0.0
+[2m[36m(DQN pid=1095798)[0m Execution_PnL: 0
+[2m[36m(DQN pid=1095798)[0m Pnl_reward: 0
+[2m[36m(DQN pid=1095798)[0m Directional reward: -4.0234480166555295
+[2m[36m(DQN pid=1095798)[0m round trip: False
+[2m[36m(DQN pid=1095798)[0m Signal part: -4.015248385175621
+[2m[36m(DQN pid=1095798)[0m Rest: 0.0
+[2m[36m(DQN pid=1095798)[0m {'reward': -4.015409001535682, 'holdings': -10, 'spread': 1, 'Mid Price': 109466, 'action': 0, 'value': 1999977, 'time to end': 3559800000000, 'mid_price': 109466, 'current_time': 1704358840200000000, 'bids': [(109466, 32), (109465, 239), (109464, 261), (109463, 326), (109462, 200), (109461, 572), (109460, 129), (109456, 3), (109455, 46), (109451, 3)], 'asks': [(109467, 28), (109468, 211), (109469, 100), (109470, 85), (109472, 3), (109474, 100), (109477, 3), (109479, 100), (109482, 3), (109487, 3)]}
+Result for DQN_fx-basic-v0_21928_00000:
+  {}
+  
+== Status ==
+Memory usage on this node: 5.5/7.7 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 0/2 CPUs, 0/0 GPUs, 0.0/2.24 GiB heap, 0.0/1.12 GiB objects
+Result logdir: /home/pietro/ray_results/dqn_with_wandb_and_callbacks
+Number of trials: 1/1 (1 ERROR)
++-----------------------------+----------+-------+
+| Trial name                  | status   | loc   |
+|-----------------------------+----------+-------|
+| DQN_fx-basic-v0_21928_00000 | ERROR    |       |
++-----------------------------+----------+-------+
+Number of errored trials: 1
++-----------------------------+--------------+-------------------------------------------------------------------------------------------------------------------+
+| Trial name                  |   # failures | error file                                                                                                        |
+|-----------------------------+--------------+-------------------------------------------------------------------------------------------------------------------|
+| DQN_fx-basic-v0_21928_00000 |            1 | /home/pietro/ray_results/dqn_with_wandb_and_callbacks/DQN_fx-basic-v0_21928_00000_0_2025-02-12_19-49-47/error.txt |
++-----------------------------+--------------+-------------------------------------------------------------------------------------------------------------------+
+
+== Status ==
+Memory usage on this node: 5.5/7.7 GiB
+Using FIFO scheduling algorithm.
+Resources requested: 0/2 CPUs, 0/0 GPUs, 0.0/2.24 GiB heap, 0.0/1.12 GiB objects
+Result logdir: /home/pietro/ray_results/dqn_with_wandb_and_callbacks
+Number of trials: 1/1 (1 ERROR)
++-----------------------------+----------+-------+
+| Trial name                  | status   | loc   |
+|-----------------------------+----------+-------|
+| DQN_fx-basic-v0_21928_00000 | ERROR    |       |
++-----------------------------+----------+-------+
+Number of errored trials: 1
++-----------------------------+--------------+-------------------------------------------------------------------------------------------------------------------+
+| Trial name                  |   # failures | error file                                                                                                        |
+|-----------------------------+--------------+-------------------------------------------------------------------------------------------------------------------|
+| DQN_fx-basic-v0_21928_00000 |            1 | /home/pietro/ray_results/dqn_with_wandb_and_callbacks/DQN_fx-basic-v0_21928_00000_0_2025-02-12_19-49-47/error.txt |
++-----------------------------+--------------+-------------------------------------------------------------------------------------------------------------------+
+
+Traceback (most recent call last):
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/abides-gym/scripts/dqn_train.py", line 23, in <module>
+    tune.run(
+  File "/home/pietro/ucl-thesis-main/ucl-thesis-main/env_3.8/lib/python3.8/site-packages/ray/tune/tune.py", line 611, in run
+    raise TuneError("Trials did not complete", incomplete_trials)
+ray.tune.error.TuneError: ('Trials did not complete', [DQN_fx-basic-v0_21928_00000])
